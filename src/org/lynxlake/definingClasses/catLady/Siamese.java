@@ -1,4 +1,4 @@
-package org.lynxlake.catLady;
+package org.lynxlake.definingClasses.catLady;
 
 public class Siamese extends Cat {
     private int earSize;

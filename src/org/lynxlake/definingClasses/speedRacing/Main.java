@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/230#4
-package org.lynxlake.speedRacing;
+package org.lynxlake.definingClasses.speedRacing;
 
 import java.io.BufferedReader;
 import java.io.IOException;

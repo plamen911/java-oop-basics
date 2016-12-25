@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/230#1
-package org.lynxlake.creatingConstructors;
+package org.lynxlake.definingClasses.creatingConstructors;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package org.lynxlake.catLady;
+package org.lynxlake.definingClasses.catLady;
 
 public class StreetExtraordinaire extends Cat {
     private int decibelsOfMeows;

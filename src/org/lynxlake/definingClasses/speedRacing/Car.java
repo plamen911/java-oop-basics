@@ -1,4 +1,4 @@
-package org.lynxlake.speedRacing;
+package org.lynxlake.definingClasses.speedRacing;
 
 class Car {
     private String carModel;

@@ -1,4 +1,4 @@
-package org.lynxlake.creatingConstructors;
+package org.lynxlake.definingClasses.creatingConstructors;
 
 class Person {
     String name;

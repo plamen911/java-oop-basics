@@ -1,4 +1,4 @@
-package org.lynxlake.companyRoster;
+package org.lynxlake.definingClasses.companyRoster;
 
 public class Employee implements Comparable<Employee> {
     private String name;

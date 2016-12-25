@@ -1,4 +1,4 @@
-package org.lynxlake.defineClassPerson;
+package org.lynxlake.definingClasses.defineClassPerson;
 
 class Person {
     private String name;

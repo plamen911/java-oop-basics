@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/230#10
-package org.lynxlake.catLady;
+package org.lynxlake.definingClasses.catLady;
 
 import java.io.BufferedReader;
 import java.io.IOException;

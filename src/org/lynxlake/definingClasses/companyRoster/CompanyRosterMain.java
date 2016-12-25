@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/230#3
-package org.lynxlake.companyRoster;
+package org.lynxlake.definingClasses.companyRoster;
 
 import java.io.BufferedReader;
 import java.io.IOException;

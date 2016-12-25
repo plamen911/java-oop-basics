@@ -1,4 +1,4 @@
-package org.lynxlake.opinionPoll;
+package org.lynxlake.definingClasses.opinionPoll;
 
 import java.util.*;
 

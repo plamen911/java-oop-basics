@@ -1,4 +1,4 @@
-package org.lynxlake.catLady;
+package org.lynxlake.definingClasses.catLady;
 
 public class Cymric extends Cat {
     private int furLength;

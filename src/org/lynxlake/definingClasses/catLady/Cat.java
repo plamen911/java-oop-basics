@@ -1,4 +1,4 @@
-package org.lynxlake.catLady;
+package org.lynxlake.definingClasses.catLady;
 
 abstract class Cat {
     protected String name;

@@ -10,3 +10,7 @@
 - [07. Immutable List](https://judge.softuni.bg/Contests/Practice/Index/225#7) - 100 / 100
 - [10. Date Modifier](https://judge.softuni.bg/Contests/Practice/Index/225#10) - 83 / 100
 - [11. Rectangle Intersection](https://judge.softuni.bg/Contests/Practice/Index/225#11) - 60 / 100
+
+#### Inheritance
+
+- [06. Animals](https://judge.softuni.bg/Contests/Practice/Index/226#5) - 66 / 100

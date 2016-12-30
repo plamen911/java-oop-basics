@@ -22,13 +22,13 @@ abstract class Vehicle {
     }
 
     public void refuel(double amount) {
-        double currentFuel = getFuelQuantity();
-        setFuelQuantity(currentFuel + amount);
+        double currentFuel = this.getFuelQuantity();
+        this.setFuelQuantity(currentFuel + amount);
     }
 
     public boolean drive(double distance) {
-        if (distance * fuelConsumption <= fuelQuantity) {
-            fuelQuantity -= distance * fuelConsumption;
+        if (distance * this.fuelConsumption <= this.fuelQuantity) {
+            this.fuelQuantity -= distance * this.fuelConsumption;
             return true;
         }
 

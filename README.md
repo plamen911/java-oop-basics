@@ -14,3 +14,8 @@
 #### Inheritance
 
 - [06. Animals](https://judge.softuni.bg/Contests/Practice/Index/226#5) - 66 / 100
+
+#### Polymorphism
+
+- [02. Vehicles Extension](https://judge.softuni.bg/Contests/Practice/Index/242#1) - 0 / 100
+

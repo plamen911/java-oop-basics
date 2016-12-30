@@ -1,3 +1,4 @@
+// https://judge.softuni.bg/Contests/Practice/Index/242#2
 package org.lynxlake.polymorphism.whildFarm;
 
 import java.io.IOException;

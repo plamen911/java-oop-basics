@@ -16,36 +16,55 @@ public class Main {
             String cmdType = cmdArgs[0];
             switch (cmdType) {
                 case "Create":
-                    BankAccount account = new BankAccount();
-                    accounts.put(account.getId(), account);
-                    System.out.println("Account " + account + " created");
+                    executeCreateCommand(accounts);
                     break;
 
                 case "Deposit":
-                    try {
-                        int amount = Integer.valueOf(cmdArgs[2]);
-                        BankAccount acct = accounts.get(Integer.valueOf(cmdArgs[1]));
-                        acct.deposit(amount);
-                        System.out.println("Deposited " + amount + " to " + acct);
-                    } catch (Exception e) {
-                        System.out.println("Account does not exist");
-                    }
+                    executeDepositCommand(accounts, cmdArgs);
                     break;
 
                 case "SetInterest":
-                    BankAccount.setInterest(Double.valueOf(cmdArgs[1]));
+                    executeSetInterestCommand(cmdArgs[1]);
                     break;
 
                 case "GetInterest":
-                    try {
-                        BankAccount acct = accounts.get(Integer.valueOf(cmdArgs[1]));
-                        double interest = acct.getInterest(Integer.valueOf(cmdArgs[2]));
-                        System.out.printf("%.2f%n", interest);
-                    } catch (Exception e) {
-                        System.out.println("Account does not exist");
-                    }
+                    executeGetIntrestCommand(accounts, cmdArgs);
                     break;
             }
+        }
+    }
+
+    private static void executeSetInterestCommand(String cmdArg) {
+        BankAccount.setInterest(Double.valueOf(cmdArg));
+    }
+
+    private static void executeCreateCommand(HashMap<Integer, BankAccount> accounts) {
+        BankAccount account = new BankAccount();
+        accounts.put(account.getId(), account);
+        System.out.println("Account " + account + " created");
+    }
+
+    private static void executeGetIntrestCommand(HashMap<Integer, BankAccount> accounts, String[] cmdArgs) {
+        try {
+            Integer id = Integer.valueOf(cmdArgs[1]);
+            BankAccount acct = accounts.get(id);
+            Integer years = Integer.valueOf(cmdArgs[2]);
+            double interest = acct.getInterest(years);
+            System.out.printf("%.2f%n", interest);
+        } catch (Exception e) {
+            System.out.println("Account does not exist");
+        }
+    }
+
+    private static void executeDepositCommand(HashMap<Integer, BankAccount> accounts, String[] cmdArgs) {
+        try {
+            int amount = Integer.valueOf(cmdArgs[2]);
+            Integer id = Integer.valueOf(cmdArgs[1]);
+            BankAccount acct = accounts.get(id);
+            acct.deposit(amount);
+            System.out.println("Deposited " + amount + " to " + acct);
+        } catch (Exception e) {
+            System.out.println("Account does not exist");
         }
     }
 }

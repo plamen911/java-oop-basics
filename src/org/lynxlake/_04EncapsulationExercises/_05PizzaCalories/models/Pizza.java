@@ -33,7 +33,7 @@ public class Pizza {
 
     @Override
     public String toString() {
-        return String.format("%s - %.2f Calories.", this.name, this.getTotalCalories());
+        return String.format("%s - %.2f", this.name, this.getTotalCalories());
     }
 
     private void setName(String name) {

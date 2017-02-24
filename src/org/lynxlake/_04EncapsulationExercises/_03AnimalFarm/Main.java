@@ -1,3 +1,4 @@
+// https://judge.softuni.bg/Contests/Practice/Index/221#2
 package org.lynxlake._04EncapsulationExercises._03AnimalFarm;
 
 import org.lynxlake._04EncapsulationExercises._03AnimalFarm.models.Chicken;

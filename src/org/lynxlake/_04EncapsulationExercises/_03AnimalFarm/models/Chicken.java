@@ -25,7 +25,7 @@ public class Chicken {
     }
 
     private void setName(String name) {
-        if (name.isEmpty() || name.trim().length() == 0) {
+        if (name == null || name.isEmpty() || name.trim().length() == 0) {
             throw new IllegalArgumentException("Name cannot be empty.");
         }
         this.name = name;
@@ -39,24 +39,12 @@ public class Chicken {
     }
 
     private double calculateProductPerDay() {
-        switch (this.age) {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-                return 2;
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-                return 3;
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-                return 2;
-            default:
-                return 1;
+        if (this.getAge() <= 6) {
+            return 2.0;
+        } else if (this.getAge() > 6 && this.getAge() <= 12) {
+            return 1.0;
+        } else {
+            return 0.75;
         }
     }
 }

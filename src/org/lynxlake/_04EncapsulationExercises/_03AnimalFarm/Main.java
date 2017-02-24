@@ -1,6 +1,6 @@
-package org.lynxlake._04Encapsulation._03AnimalFarm;
+package org.lynxlake._04EncapsulationExercises._03AnimalFarm;
 
-import org.lynxlake._04Encapsulation._03AnimalFarm.models.Chicken;
+import org.lynxlake._04EncapsulationExercises._03AnimalFarm.models.Chicken;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

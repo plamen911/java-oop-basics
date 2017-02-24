@@ -1,4 +1,4 @@
-package org.lynxlake._04Encapsulation._01ClassBox;
+package org.lynxlake._04EncapsulationExercises._01ClassBox;
 
 class Box {
     private double length;

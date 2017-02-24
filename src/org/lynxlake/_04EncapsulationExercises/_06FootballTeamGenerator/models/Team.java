@@ -1,4 +1,4 @@
-package org.lynxlake._04Encapsulation._06FootballTeamGenerator.models;
+package org.lynxlake._04EncapsulationExercises._06FootballTeamGenerator.models;
 
 import java.util.HashMap;
 

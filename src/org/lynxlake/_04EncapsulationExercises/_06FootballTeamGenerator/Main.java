@@ -1,8 +1,8 @@
 // https://judge.softuni.bg/Contests/Practice/Index/221#5
-package org.lynxlake._04Encapsulation._06FootballTeamGenerator;
+package org.lynxlake._04EncapsulationExercises._06FootballTeamGenerator;
 
-import org.lynxlake._04Encapsulation._06FootballTeamGenerator.models.Player;
-import org.lynxlake._04Encapsulation._06FootballTeamGenerator.models.Team;
+import org.lynxlake._04EncapsulationExercises._06FootballTeamGenerator.models.Player;
+import org.lynxlake._04EncapsulationExercises._06FootballTeamGenerator.models.Team;
 
 import java.io.BufferedReader;
 import java.io.IOException;

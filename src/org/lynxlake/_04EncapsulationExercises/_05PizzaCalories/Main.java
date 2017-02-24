@@ -1,9 +1,9 @@
 // https://judge.softuni.bg/Contests/Practice/Index/221#4
-package org.lynxlake._04Encapsulation._05PizzaCalories;
+package org.lynxlake._04EncapsulationExercises._05PizzaCalories;
 
-import org.lynxlake._04Encapsulation._05PizzaCalories.models.Dough;
-import org.lynxlake._04Encapsulation._05PizzaCalories.models.Pizza;
-import org.lynxlake._04Encapsulation._05PizzaCalories.models.Topping;
+import org.lynxlake._04EncapsulationExercises._05PizzaCalories.models.Dough;
+import org.lynxlake._04EncapsulationExercises._05PizzaCalories.models.Pizza;
+import org.lynxlake._04EncapsulationExercises._05PizzaCalories.models.Topping;
 
 import java.io.BufferedReader;
 import java.io.IOException;

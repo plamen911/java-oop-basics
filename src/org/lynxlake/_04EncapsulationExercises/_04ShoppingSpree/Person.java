@@ -1,4 +1,4 @@
-package org.lynxlake._04Encapsulation._04ShoppingSpree;
+package org.lynxlake._04EncapsulationExercises._04ShoppingSpree;
 
 import java.util.LinkedList;
 import java.util.List;

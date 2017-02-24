@@ -1,4 +1,4 @@
-package org.lynxlake._04Encapsulation._03AnimalFarm.models;
+package org.lynxlake._04EncapsulationExercises._03AnimalFarm.models;
 
 public class Chicken {
     private int MIN_AGE = 0;

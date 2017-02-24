@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/221#1
-package org.lynxlake._04Encapsulation._02ClassBoxDataValidation;
+package org.lynxlake._04EncapsulationExercises._02ClassBoxDataValidation;
 
 import java.io.BufferedReader;
 import java.io.IOException;

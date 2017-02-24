@@ -1,4 +1,4 @@
-package org.lynxlake._04Encapsulation._05PizzaCalories.models;
+package org.lynxlake._04EncapsulationExercises._05PizzaCalories.models;
 
 public class Dough {
     private String flourType;

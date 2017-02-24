@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/221#0
-package org.lynxlake._04Encapsulation._01ClassBox;
+package org.lynxlake._04EncapsulationExercises._01ClassBox;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,13 +14,12 @@ public class Main {
         double length = Double.parseDouble(reader.readLine());
         double width = Double.parseDouble(reader.readLine());
         double height = Double.parseDouble(reader.readLine());
-        reader.close();
 
         Class boxClass = Box.class;
         Field[] fields = boxClass.getDeclaredFields();
-        System.out.println(Arrays.asList(fields)
-                .stream()
-                .filter(f -> Modifier.isPrivate(f.getModifiers())).count());
+//        System.out.println(Arrays.asList(fields)
+//                .stream()
+//                .filter(f -> Modifier.isPrivate(f.getModifiers())).count());
 
         Box box = new Box(length, width, height);
         System.out.printf("Surface Area - %.2f%n", box.getSurfaceArea());

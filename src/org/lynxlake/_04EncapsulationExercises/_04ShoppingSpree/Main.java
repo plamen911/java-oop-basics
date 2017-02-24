@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/221#3
-package org.lynxlake._04Encapsulation._04ShoppingSpree;
+package org.lynxlake._04EncapsulationExercises._04ShoppingSpree;
 
 import java.io.BufferedReader;
 import java.io.IOException;

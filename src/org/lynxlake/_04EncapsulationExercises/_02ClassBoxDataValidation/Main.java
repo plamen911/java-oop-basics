@@ -16,11 +16,11 @@ public class Main {
         double height = Double.parseDouble(reader.readLine());
         reader.close();
 
-        Class boxClass = Box.class;
-        Field[] fields = boxClass.getDeclaredFields();
-        System.out.println(Arrays.asList(fields)
-                .stream()
-                .filter(f -> Modifier.isPrivate(f.getModifiers())).count());
+//        Class boxClass = Box.class;
+//        Field[] fields = boxClass.getDeclaredFields();
+//        System.out.println(Arrays.asList(fields)
+//                .stream()
+//                .filter(f -> Modifier.isPrivate(f.getModifiers())).count());
 
         try {
             Box box = new Box(length, width, height);

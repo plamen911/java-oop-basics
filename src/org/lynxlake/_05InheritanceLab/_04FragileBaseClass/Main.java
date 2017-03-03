@@ -1,3 +1,4 @@
+// https://judge.softuni.bg/Contests/Practice/Index/478#3
 package org.lynxlake._05InheritanceLab._04FragileBaseClass;
 
 public class Main {

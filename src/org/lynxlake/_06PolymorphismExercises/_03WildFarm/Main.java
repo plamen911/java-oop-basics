@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/242#2
-package org.lynxlake._06Polymorphism._03WildFarm;
+package org.lynxlake._06PolymorphismExercises._03WildFarm;
 
 import java.io.IOException;
 import java.text.DecimalFormat;

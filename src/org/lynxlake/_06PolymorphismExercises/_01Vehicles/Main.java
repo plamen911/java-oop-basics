@@ -1,5 +1,5 @@
 // https://judge.softuni.bg/Contests/Practice/Index/242#0
-package org.lynxlake._06Polymorphism._01Vehicles;
+package org.lynxlake._06PolymorphismExercises._01Vehicles;
 
 import java.io.BufferedReader;
 import java.io.IOException;

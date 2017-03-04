@@ -1,4 +1,4 @@
-package org.lynxlake._06Polymorphism._01Vehicles;
+package org.lynxlake._06PolymorphismExercises._01Vehicles;
 
 abstract class Vehicle {
     private double fuelQuantity;

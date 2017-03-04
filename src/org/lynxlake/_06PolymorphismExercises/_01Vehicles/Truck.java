@@ -1,4 +1,4 @@
-package org.lynxlake._06Polymorphism._01Vehicles;
+package org.lynxlake._06PolymorphismExercises._01Vehicles;
 
 class Truck extends Vehicle {
     private static final double addedConsumption = 1.6;

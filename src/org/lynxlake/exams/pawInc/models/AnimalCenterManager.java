@@ -1,10 +1,10 @@
 package org.lynxlake.exams.pawInc.models;
 
+import org.lynxlake.exams.pawInc.models.centers.CastrationCenter;
 import org.lynxlake.exams.pawInc.models.animals.Animal;
 import org.lynxlake.exams.pawInc.models.animals.Cat;
 import org.lynxlake.exams.pawInc.models.animals.Dog;
 import org.lynxlake.exams.pawInc.models.centers.AdoptionCenter;
-import org.lynxlake.exams.pawInc.models.centers.CastrationCenter;
 import org.lynxlake.exams.pawInc.models.centers.CleansingCenter;
 
 import java.text.Collator;
@@ -99,12 +99,12 @@ public class AnimalCenterManager {
         StringBuilder builder = new StringBuilder();
 
         builder.append("Paw Incorporative Regular Statistics\n");
-        builder.append(String.format("Adoption Centers: %d\n", this.adoptionCenters.size()));
-        builder.append(String.format("Cleansing Centers: %d\n", this.cleansingCenters.size()));
-        builder.append(String.format("Adopted Animals: %s\n", getSortedAnimals(this.adoptedAniamls)));
-        builder.append(String.format("Cleansed Animals: %s\n", getSortedAnimals(this.cleansedAnimals)));
-        builder.append(String.format("Animals Awaiting Adoption: %d\n", getAwaitingAdoptionCount()));
-        builder.append(String.format("Animals Awaiting Cleansing: %d\n", getAwaitingCleansingCount()));
+        builder.append(String.format("Adoption centers: %d\n", this.adoptionCenters.size()));
+        builder.append(String.format("Cleansing centers: %d\n", this.cleansingCenters.size()));
+        builder.append(String.format("Adopted animals: %s\n", getSortedAnimals(this.adoptedAniamls)));
+        builder.append(String.format("Cleansed animals: %s\n", getSortedAnimals(this.cleansedAnimals)));
+        builder.append(String.format("animals Awaiting Adoption: %d\n", getAwaitingAdoptionCount()));
+        builder.append(String.format("animals Awaiting Cleansing: %d\n", getAwaitingCleansingCount()));
 
         System.out.println(builder.toString());
     }
@@ -112,8 +112,8 @@ public class AnimalCenterManager {
     public void printCastrationStatistics() {
         StringBuilder builder = new StringBuilder();
         builder.append("Paw Inc. Regular Castration Statistics\n");
-        builder.append(String.format("Castration Centers: %d\n", this.castrationCenters.size()));
-        builder.append(String.format("Castrated Animals: %s", getSortedAnimals(this.castratedAnimals)));
+        builder.append(String.format("Castration centers: %d\n", this.castrationCenters.size()));
+        builder.append(String.format("Castrated animals: %s", getSortedAnimals(this.castratedAnimals)));
         System.out.println(builder.toString());
     }
 
